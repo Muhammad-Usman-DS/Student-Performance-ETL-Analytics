@@ -24,12 +24,16 @@ The ER-Diagram and the system in place have been designed
 with the purpose of recording the journey of students, right from his/her admission until the
 last of her/his degree. The data associated to the system contains information about an
 imaginary educational institution. It contains data about:
-• Departments
-• Professors (university employees)
-• Student Counselling
-• Coursers offered
-• Courses that students selected to get admission to the institution
-• Student performance in different examinations they sat through 
+
+- Departments
+- Professors (university employees)
+- Student Counselling
+- Coursers offered
+- Courses that students selected to get admission to the institution
+- Student performance in different examinations they sat through
+  
+<img width="639" height="157" alt="Screenshot 2026-01-22 at 10 21 21 AM" src="https://github.com/user-attachments/assets/6c1aa270-e9b7-48ef-938b-69509587db0c" />
+<img width="636" height="93" alt="Screenshot 2026-01-22 at 10 21 46 AM" src="https://github.com/user-attachments/assets/85cfff6e-5f4d-4824-98c2-49b0aeed7200" />
 
 ---
 
