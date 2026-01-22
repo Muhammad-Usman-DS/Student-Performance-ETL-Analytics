@@ -110,5 +110,33 @@ Predictions are generated for a predefined set of students, and results are expo
 
 ---
 
+---
+
+## How to Run
+1. Set up a MariaDB instance locally or remotely
+2. Execute the SQL schema to create tables
+3. Load the CSV data into the database
+4. Install dependencies:
+5. Run the notebooks in sequence:
+- ETL and data quality validation
+- Exploratory analysis
+- Predictive modeling
+
+---
+
+## Notes
+This project was originally completed as part of an advanced databases course and has been published with instructor approval. It has been reorganized, documented, and extended to serve as a portfolio project demonstrating practical skills in data engineering, analytics, and predictive modeling.
+
+---
+
+## Key Skills Demonstrated
+- Relational database design
+- SQL-based data loading and validation
+- ETL and data quality engineering
+- Exploratory data analysis
+- Regression-based predictive modeling
+- End-to-end analytics pipeline development
+
+
 
 
