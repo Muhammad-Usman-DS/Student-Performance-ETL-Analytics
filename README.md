@@ -17,6 +17,20 @@ The objectives of this project are to:
 - Extract descriptive insights through exploratory analysis
 - Build a predictive model to estimate future student performance based on historical effort
 
+Here is the ER-Diagram for the Relational Database System in place:
+<img width="640" height="421" alt="Screenshot 2026-01-22 at 10 15 52 AM" src="https://github.com/user-attachments/assets/be6719ea-c4a7-4618-99a0-2bb05ef93aa8" />
+
+The ER-Diagram and the system in place have been designed
+with the purpose of recording the journey of students, right from his/her admission until the
+last of her/his degree. The data associated to the system contains information about an
+imaginary educational institution. It contains data about:
+• Departments
+• Professors (university employees)
+• Student Counselling
+• Coursers offered
+• Courses that students selected to get admission to the institution
+• Student performance in different examinations they sat through 
+
 ---
 
 ## Tech Stack
