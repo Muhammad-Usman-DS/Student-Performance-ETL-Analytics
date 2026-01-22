@@ -3,7 +3,7 @@
 ## Overview
 This project implements an end-to-end data pipeline that transforms relational data into actionable insights and predictive outcomes. The workflow combines relational database design, ETL (Extract, Transform, Load), data quality validation, exploratory analytics, and predictive modeling using linear regression.
 
-The goal of the project is to simulate a real-world analytics scenario where raw operational data stored in a relational database must be cleaned, validated, transformed, and analyzed to support decision-making.
+The goal of the project is to simulate a real-world analytics scenario where raw operational data stored in a relational database must be cleaned, validated, transformed, and analyzed to support decision making.
 
 ---
 
@@ -143,7 +143,7 @@ Predictions are generated for a predefined set of students, and results are expo
 ---
 
 ## Notes
-This project was originally completed as part of an advanced databases course and has been published with instructor approval. It has been reorganized, documented, and extended to serve as a portfolio project demonstrating practical skills in data engineering, analytics, and predictive modeling.
+This project was originally completed as part of an advanced databases course and has been published with instructor approval. It has been reorganized, documented, and extended to serve as a project demonstrating practical skills in data engineering, analytics, and predictive modeling.
 
 ---
 
