@@ -13,14 +13,14 @@ An academic institution records student journeys from admission through coursewo
 The objectives of this project are to:
 - Load and manage relational data in a SQL database
 - Perform data quality inspection and exception reporting
-- Transform normalized relational data into an analytics-ready dataset
+- Transform normalized relational data into an analytics ready dataset
 - Extract descriptive insights through exploratory analysis
 - Build a predictive model to estimate future student performance based on historical effort
 
 Here is the ER-Diagram for the Relational Database System in place:
 <img width="640" height="421" alt="Screenshot 2026-01-22 at 10 15 52 AM" src="https://github.com/user-attachments/assets/be6719ea-c4a7-4618-99a0-2bb05ef93aa8" />
 
-The ER-Diagram and the system in place have been designed
+The ER Diagram and the system in place have been designed
 with the purpose of recording the journey of students, right from his/her admission until the
 last of her/his degree. The data associated to the system contains information about an
 imaginary educational institution. It contains data about:
@@ -89,7 +89,7 @@ Invalid or incomplete records that affect predictive modeling are discarded, whi
 ---
 
 ## Data Transformation
-After validation, the relational data is transformed into an aggregated, analytics-ready dataset:
+After validation, the relational data is transformed into an aggregated, analytics ready dataset:
 - Multiple tables are joined
 - Invalid rows are removed based on quality rules
 - Intermediate features are computed where required
@@ -149,10 +149,10 @@ This project was originally completed as part of an advanced databases course an
 
 ## Key Skills Demonstrated
 - Relational database design
-- SQL-based data loading and validation
+- SQL based data loading and validation
 - ETL and data quality engineering
 - Exploratory data analysis
-- Regression-based predictive modeling
+- Regression based predictive modeling
 - End-to-end analytics pipeline development
 
 
