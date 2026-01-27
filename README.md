@@ -11,14 +11,14 @@ The goal of the project is to simulate a real-world analytics scenario where raw
 An academic institution records student journeys from admission through coursework and assessments. The raw data is distributed across multiple relational tables and contains inconsistencies, missing values, and invalid entries.
 
 The objectives of this project are to:
-- Load and manage relational data in a SQL database
-- Perform data quality inspection and exception reporting
-- Transform normalized relational data into an analytics ready dataset
-- Extract descriptive insights through exploratory analysis
-- Build a predictive model to estimate future student performance based on historical effort
+- Load raw CSV files into a relational database using a defined SQL schema
+- Validate data quality issues (missing values, duplicates, invalid values, referential problems)
+- Export exception reports as CSV files for traceability
+- Create a cleaned, analysis-ready dataset
+- Produce descriptive statistics and visualizations
+- Build per-student linear regression models to predict marks from effort hours
+- Export final artifacts (cleaned dataset, figures, and predicted marks)
 
-Here is the ER-Diagram for the Relational Database System in place:
-<img width="640" height="421" alt="Screenshot 2026-01-22 at 10 15 52 AM" src="https://github.com/user-attachments/assets/be6719ea-c4a7-4618-99a0-2bb05ef93aa8" />
 
 The ER Diagram and the system in place have been designed
 with the purpose of recording the journey of students, right from his/her admission until the
@@ -31,6 +31,9 @@ imaginary educational institution. It contains data about:
 - Coursers offered
 - Courses that students selected to get admission to the institution
 - Student performance in different examinations they sat through
+
+Here is the ER-Diagram for the Relational Database System in place:
+<img width="640" height="421" alt="Screenshot 2026-01-22 at 10 15 52 AM" src="https://github.com/user-attachments/assets/be6719ea-c4a7-4618-99a0-2bb05ef93aa8" />
   
 <img width="639" height="157" alt="Screenshot 2026-01-22 at 10 21 21 AM" src="https://github.com/user-attachments/assets/6c1aa270-e9b7-48ef-938b-69509587db0c" />
 <img width="636" height="93" alt="Screenshot 2026-01-22 at 10 21 46 AM" src="https://github.com/user-attachments/assets/85cfff6e-5f4d-4824-98c2-49b0aeed7200" />
