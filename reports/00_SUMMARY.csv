@@ -1,0 +1,11 @@
+Report_Name,Exception_Count,File_Path
+dept_missing,2,reports/dept_missing.csv
+dept_duplicate_id,10,reports/dept_duplicate_id.csv
+dept_duplicate_name,2,reports/dept_duplicate_name.csv
+dept_invalid_doe,3,reports/dept_invalid_doe.csv
+coun_missing,1,reports/coun_missing.csv
+coun_bad_admission,1,reports/coun_bad_admission.csv
+perf_missing,3,reports/perf_missing.csv
+perf_bad_marks,5,reports/perf_bad_marks.csv
+perf_bad_effort,1,reports/perf_bad_effort.csv
+perf_dup_pair,0,reports/perf_dup_pair.csv
