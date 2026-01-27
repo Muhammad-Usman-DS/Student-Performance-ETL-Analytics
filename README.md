@@ -32,7 +32,7 @@ imaginary educational institution. It contains data about:
 - Courses that students selected to get admission to the institution
 - Student performance in different examinations they sat through
 
-Here is the ER-Diagram for the Relational Database System in place:
+Here is the ER Diagram for the Relational Database System in place:
 <img width="640" height="421" alt="Screenshot 2026-01-22 at 10 15 52 AM" src="https://github.com/user-attachments/assets/be6719ea-c4a7-4618-99a0-2bb05ef93aa8" />
   
 <img width="639" height="157" alt="Screenshot 2026-01-22 at 10 21 21 AM" src="https://github.com/user-attachments/assets/6c1aa270-e9b7-48ef-938b-69509587db0c" />
@@ -149,6 +149,37 @@ Predictions are generated for a predefined set of students, and results are expo
 This project was originally completed as part of an advanced databases course and has been published with instructor approval. It has been reorganized, documented, and extended to serve as a project demonstrating practical skills in data engineering, analytics, and predictive modeling.
 
 ---
+## Key Visual Results
+
+### Distribution of Marks
+This histogram shows the overall distribution of student marks after data cleaning.  
+Most scores fall between 40 and 100, indicating that invalid and extreme values were successfully removed during the ETL process.
+
+![Distribution of Marks](outputs/Distribution_Of_Marks.png)
+
+---
+
+### Effort Hours vs Marks
+This scatter plot illustrates the relationship between effort hours and academic performance.  
+A strong positive trend is visible, showing that higher effort hours are associated with higher marks.
+
+![Effort Hours vs Marks](outputs/EffortHours_VS_Marks.png)
+
+---
+
+### Student-Level Regression Fits
+These plots show individual linear regression models fitted for selected students.  
+Each model demonstrates a strong linear relationship between effort hours and marks, with high R² values and consistent predictions at 10 effort hours.
+
+![Student Regression Fits](outputs/student_regression_fits.png)
+
+---
+
+### Top 10 Departments by Average Marks
+This bar chart displays the top 10 departments ranked by average student marks.  
+The visualization highlights performance differences across departments after merging academic and departmental data.
+
+![Top 10 Departments](outputs/Top_10_Departments.png)
 
 ## Key Skills Demonstrated
 - Relational database design
